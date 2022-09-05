@@ -1,0 +1,70 @@
+restrictions:
+  - name: No wasted mana
+    description: "You may not swing your weapon if you have full mana"
+    groups: [magic]
+    difficulty: 1
+
+  - name: Running on empty
+    description: "You may not swing your weapon if you have any mana"
+    groups: [magic]
+    difficulty: 2
+
+  - name: Manahoarder
+    description: "You may only cast spells when you have full mana"
+    groups: [magic]
+    difficulty: 1
+
+  - name: Muggle
+    description: "You may not cast spells"
+    groups: [magic]
+    difficulty: 2
+
+  - name: Feeble
+    description: "You may only use light attacks with your weapon"
+    groups: [weapon]
+    difficulty: 1
+
+  - name: Heavy Hitter
+    description: "You may only use heavy attacks and rollslashes with your weapon"
+    groups: [weapon]
+    difficulty: 3
+
+  - name: Rollslasher
+    description: "You may only use rollslashes with your weapon"
+    groups: [weapon, roll]
+    difficulty: 4
+
+  - name: No Deflect
+    description: "You may not deflect projectiles"
+    groups: [projectiles]
+    difficulty: 1
+
+  - name: Genocide
+    description: "You must kill all enemies that aggro you"
+    groups: [enemies]
+    difficulty: 2
+
+  - name: Pacifist
+    description: "You may only kill required enemies"
+    groups: [enemies]
+    difficulty: 2
+
+  - name: OHKO
+    description: "You may not take damage"
+    groups: [damage]
+    difficulty: 5
+
+  - name: Carnivore
+    description: "You may not consume soul fruit"
+    groups: [damage]
+    difficulty: 2
+
+  - name: Flatfooted
+    description: "You may not roll"
+    groups: [roll]
+    difficulty: 5
+
+  - name: Dancer
+    description: "You may only move by rolling"
+    groups: [roll]
+    difficulty: 4

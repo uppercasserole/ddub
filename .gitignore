@@ -1,0 +1,7 @@
+
+/venv/
+/build/
+.idea
+.pytest_cache
+ddub.egg-info
+__pycache__

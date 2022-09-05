@@ -1,0 +1,39 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ddub"
+version = "0.0.1"
+requires-python = ">=3.7"
+dependencies = [
+    "PyYAML==6.0",
+    "pydantic==1.10.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "isort",
+    "pylint"
+]
+
+[tool.setuptools.packages.find]
+where = [
+    "src"
+]
+
+[tool.setuptools.package-data]
+"*" = [
+    "*.yaml"
+]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
